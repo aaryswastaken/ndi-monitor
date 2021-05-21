@@ -50,11 +50,27 @@ class Collection {
     }
 
     addHost(name, settings) {
-        this.hosts[name] = Monitor(settings);
+        this.hosts[name] = new Monitor(settings);
+    }
+
+    addDefinedHost(name, host) {
+        this.hosts[name] = host;
+    }
+
+    deleteHost(name) {
+        delete this.hosts[name];
     }
 
     addScene(name, settings) {
-        this.scenes[name] = Scene(settings);
+        this.scenes[name] = new Scene(settings);
+    }
+
+    addDefinedScene(name, scene) {
+        this.scenes[name] = scene;
+    }
+
+    deleteScene(name) {
+        delete this.scenes[name];
     }
 }
 
