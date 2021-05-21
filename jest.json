@@ -1,0 +1,4 @@
+{
+  "roots": ["./tests/"],
+  "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"]
+}
