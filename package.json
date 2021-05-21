@@ -1,0 +1,25 @@
+{
+  "name": "ndi-monitor",
+  "version": "1.0.0",
+  "description": "npm package to interface with ndi-tools ndi-monitor",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsahler/ndi-monitor.git"
+  },
+  "keywords": [
+    "ndi",
+    "monitor",
+    "api",
+    "ndi-monitor"
+  ],
+  "author": "vsahler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsahler/ndi-monitor/issues"
+  },
+  "homepage": "https://github.com/vsahler/ndi-monitor#readme"
+}
